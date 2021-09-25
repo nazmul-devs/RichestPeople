@@ -1,13 +1,15 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
 	return (
 		<div>
-			<h2>
+			<h2 className="header-title">
 				As of 2021, there are reportedly 2,755 billionaires on Earth, with
-				an estimated total net worth of $13100000000000. Of this amount, the
-				top 10 wealthiest people in the world account total amount
-				$1153000000000
+				an estimated
+				<span className="total-worth">
+					total net worth of $13100000000000
+				</span>
 			</h2>
 		</div>
 	);

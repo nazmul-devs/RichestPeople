@@ -5,27 +5,33 @@ import Person from "../Person/Person";
 
 const Main = () => {
 	const [persons, setPersons] = useState([]);
+	const [person, setperson] = useState([]);
 	useEffect(() => {
 		fetch("./person.JSON")
 			.then((res) => res.json())
 			.then((data) => setPersons(data));
 	}, []);
+
+	// event handler for person details
 	const handleDetails = (details) => {
-		console.log(details);
+		const currentPerosn = [...person, details];
+		setperson(currentPerosn);
 	};
 	return (
 		<div className="main">
 			<div className="persons">
 				<h2 className="main-title">The 10 Richest People in the World</h2>
-				{persons.map((person) => (
-					<Person
-						key={person.id}
-						person={person}
-						details={handleDetails}
-					/>
-				))}
+				<div className="person-container">
+					{persons.map((person) => (
+						<Person
+							key={person.id}
+							person={person}
+							details={handleDetails}
+						/>
+					))}
+				</div>
 			</div>
-			<Cart />
+			<Cart persons={person} />
 		</div>
 	);
 };

@@ -15,12 +15,12 @@ const Person = (props) => {
 				className="details-btn"
 				onClick={() => props.details(props.person)}
 			>
-				<i class="fas fa-search-dollar"></i> Details
+				<i className="fas fa-search-dollar"></i> Details
 			</button>
 			<div className="contact">
-				<i class="fas fa-address-card"></i>
-				<i class="fas fa-paper-plane"></i>
-				<i class="fab fa-google-plus-g"></i>
+				<i className="fas fa-address-card"></i>
+				<i className="fas fa-paper-plane"></i>
+				<i className="fab fa-google-plus-g"></i>
 			</div>
 		</div>
 	);

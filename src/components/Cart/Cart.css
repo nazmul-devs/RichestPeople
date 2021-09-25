@@ -1,0 +1,12 @@
+.person-details {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	padding: 5px;
+}
+.person-details > img {
+	width: 100px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 5px;
+}

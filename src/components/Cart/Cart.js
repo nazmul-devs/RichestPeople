@@ -1,14 +1,21 @@
 import React from "react";
+import "./Cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
+	const { persons } = props;
+	let totalAmount = 0;
+	persons.filter((persn) => (totalAmount += Number(persn.worth)));
 	return (
 		<div>
 			<h2>person details</h2>
-			<h3>Person : </h3>
-			<h3>Net worth : $</h3>
-			<div className="person-details">
-				<h4>perosn </h4>
-			</div>
+			<h3>Person :{persons.length} </h3>
+			<h3>Net worth : ${totalAmount}</h3>
+			{persons.map((person) => (
+				<div className="person-details">
+					<img src={person.img} alt="" className="person-img" />
+					<h4>{person.name}</h4>
+				</div>
+			))}
 		</div>
 	);
 };

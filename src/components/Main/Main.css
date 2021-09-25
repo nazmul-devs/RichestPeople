@@ -6,4 +6,8 @@
 	font-weight: 500;
 	font-size: 45px;
 	word-spacing: 2px;
+	color: #2b2c34;
+}
+.person-container {
+	display: grid;
 }
