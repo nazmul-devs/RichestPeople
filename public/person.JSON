@@ -1,0 +1,92 @@
+[
+	{
+		"id": "01",
+		"name": "Jeff Bezos",
+		"age": "57",
+		"residence": "Seattle",
+		"worth": "177000000000",
+		"source": "Amazon",
+		"img": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f469ea85cc82fc8d6083f05%2FAmazon-Founder-and-CEO-Jeff-Bezos%2F960x0.jpg%3Ffit%3Dscale"
+	},
+	{
+		"id": "02",
+		"name": "Elon Musk",
+		"age": "50",
+		"residence": "Austin, Texas",
+		"worth": "151000000000",
+		"source": "Tesla",
+		"img": "https://www.investopedia.com/thmb/IyItbsK_Q8xM-qgPDkntPpoZtDc=/1665x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1215628293-c32a14bc41c34aa9adee9e41f6c7fb68.jpg"
+	},
+	{
+		"id": "03",
+		"name": "Bernard Arnault",
+		"age": "72",
+		"residence": "Paris",
+		"worth": "150000000000",
+		"source": "LVMH",
+		"img": "https://www.investopedia.com/thmb/xa7mk6am1_g40iopZBhoH7zNwu4=/1665x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-696695914-895a5475a7f8412c9239900be0ea5179.jpg"
+	},
+	{
+		"id": "04",
+		"name": "Bill Gates",
+		"age": "65",
+		"residence": "Medina, Washington",
+		"worth": "124000000000",
+		"source": "Microsoft Corp",
+		"img": "https://www.investopedia.com/thmb/KY3JGY9GGlkJJSVupUBwunDpaIg=/2400x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-948065808-ba10e6df430c414fbc496dededf1db2b.jpg"
+	},
+	{
+		"id": "05",
+		"name": "Mark Zuckerberg",
+		"age": "37",
+		"residence": "Palo Alto, Calif",
+		"worth": "97000000000",
+		"source": "Facebook ",
+		"img": "https://www.investopedia.com/thmb/G0c-XHhHMiQ_iu50SzKcXwT2Bpo=/2266x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-688402250-c3fd58b6a99a4729a821205bfac67168.jpg"
+	},
+	{
+		"id": "06",
+		"name": "Warren Buffett",
+		"age": "91",
+		"residence": "Omaha, Nebraska",
+		"worth": "96000000000",
+		"source": "Berkshire Hathaway",
+		"img": "https://www.investopedia.com/thmb/jq7Qo_UYPmnqn5kNcf6GYbLWhWc=/1650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-540179188-f820573a1328459cb5cedac011088d4c.jpg"
+	},
+	{
+		"id": "07",
+		"name": "Larry Ellison",
+		"age": "77",
+		"residence": "Lanai, Hawaii",
+		"worth": "93000000000",
+		"source": "Oracle ",
+		"img": "https://www.investopedia.com/thmb/-T03N1ZBOcW8K-ltadp8Gggu4cc=/1521x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1183284102-5aa79849742e4d3e9916fe605a14d803.jpg"
+	},
+	{
+		"id": "08",
+		"name": "Larry Page",
+		"age": "48",
+		"residence": "Palo Alto, California",
+		"worth": "91500000000",
+		"source": "Alphabet ",
+		"img": "https://www.investopedia.com/thmb/0UB4TaNOE2Hm4NqADMIcveHUiKA=/1650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-144948913-67ccee1c4f4c4845b69f4deb67bc6c7c.jpg"
+	},
+	{
+		"id": "09",
+		"name": "Sergey Brin",
+		"age": "48",
+		"residence": "Los Altos, California",
+		"worth": "89000000000",
+		"source": "Alphabet",
+		"img": "https://www.investopedia.com/thmb/fxA0WWy2FqegOuhQYi1eMEbmUFg=/1650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-627820272-3ccd2a0a1b824125872f49601ef3bed6.jpg"
+	},
+	{
+		"id": "10",
+		"name": "Mukesh Ambani",
+		"age": "64",
+		"residence": "Mumbai, India",
+		"worth": "84500000000",
+		"source": "Reliance Industries",
+		"img": "https://www.investopedia.com/thmb/5JJHvamXFzJr1AYVCPDmoioLESM=/2086x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1273603549-344d8c0dc8184b34b58b4cfe482f4ff6.jpg"
+	}
+]
