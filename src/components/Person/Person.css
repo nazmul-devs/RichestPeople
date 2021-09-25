@@ -1,37 +1,50 @@
 .person-card {
+	min-height: 550px;
+	text-align: center;
+	margin: 30px 10px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 10px;
+	color: #2b2c34;
+	transition: 0.4s;
+}
+.person-card:hover {
+	transform: translateY(-5px);
 }
 .person-card img {
-	width: 180px;
-	height: 180px;
+	margin-top: -50px;
+	width: 150px;
+	height: 150px;
+	border: 3px solid #fff;
 	border-radius: 50%;
 	object-fit: cover;
 }
-.person-card {
-}
+
 .details-btn {
+	margin-top: 15px;
 	padding: 3px 15px;
 	font-size: 20px;
 	border: none;
 	border-radius: 5px;
-	background-color: aqua;
-	color: gold;
+	background-color: #6246ea;
+	color: #fffffe;
 	box-shadow: 2px 2px 10px #636868de;
 }
 .details-btn:hover {
-	background-color: aqua;
-	color: rgb(169, 143, 0);
+	background-color: #2c1794;
 	box-shadow: 2px 2px 10px #3b4343de;
 }
-rgb(20, 100, 100)rgba(20, 100, 100, 0.589) .contact {
-	display: flex;
-	align-items: center;
+
+.contact {
+	margin-top: 20px;
 }
 .contact i {
-	margin: 10px 20px;
-	color: #00ffff;
-}
-.contact i:hover {
-	margin: 10px 20px;
+	margin: 10px 10px;
 	color: #005050;
 	box-shadow: 2px 2px 10px gray;
+	padding: 7px;
+}
+.contact i:hover {
+	color: #190a64;
+	box-shadow: 2px 2px 10px #494949;
 }

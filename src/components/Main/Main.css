@@ -1,13 +1,17 @@
 .main {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	background: #d3d3d3b3;
 }
 .main-title {
 	font-weight: 500;
 	font-size: 45px;
 	word-spacing: 2px;
 	color: #2b2c34;
+	margin: 10px;
 }
 .person-container {
 	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	place-items: center;
 }
