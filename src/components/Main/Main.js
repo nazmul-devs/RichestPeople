@@ -10,12 +10,21 @@ const Main = () => {
 			.then((res) => res.json())
 			.then((data) => setPersons(data));
 	}, []);
+	const handleDetails = (details) => {
+		console.log(details);
+	};
 	return (
-		<div>
-			<h2 className="main-title">The 10 Richest People in the World</h2>
-			{persons.map((person) => (
-				<Person key={person.id} person={person} />
-			))}
+		<div className="main">
+			<div className="persons">
+				<h2 className="main-title">The 10 Richest People in the World</h2>
+				{persons.map((person) => (
+					<Person
+						key={person.id}
+						person={person}
+						details={handleDetails}
+					/>
+				))}
+			</div>
 			<Cart />
 		</div>
 	);

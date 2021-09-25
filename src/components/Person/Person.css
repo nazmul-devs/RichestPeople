@@ -8,3 +8,30 @@
 }
 .person-card {
 }
+.details-btn {
+	padding: 3px 15px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: aqua;
+	color: gold;
+	box-shadow: 2px 2px 10px #636868de;
+}
+.details-btn:hover {
+	background-color: aqua;
+	color: rgb(169, 143, 0);
+	box-shadow: 2px 2px 10px #3b4343de;
+}
+rgb(20, 100, 100)rgba(20, 100, 100, 0.589) .contact {
+	display: flex;
+	align-items: center;
+}
+.contact i {
+	margin: 10px 20px;
+	color: #00ffff;
+}
+.contact i:hover {
+	margin: 10px 20px;
+	color: #005050;
+	box-shadow: 2px 2px 10px gray;
+}
