@@ -8,7 +8,9 @@ const Cart = (props) => {
 	return (
 		<div className="person-cart">
 			<h2>person details</h2>
-			<h3>Person :{persons.length} </h3>
+			<h3>
+				<i class="fas fa-users"></i> Person : {persons.length}{" "}
+			</h3>
 			<h3>Total amount : ${totalAmount}</h3>
 			{persons.map((person) => (
 				<div className="person-details">

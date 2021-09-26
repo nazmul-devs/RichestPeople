@@ -1,13 +1,14 @@
 .header-title {
 	color: #2b2c34;
-	background-color: #6146ea2e;
-	text-align: justify;
-	font-size: 40px;
-	font-weight: 700;
-	padding: 20px;
-	box-shadow: 2px 2px 10px lightgray;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	padding: 10px 50px;
+	box-shadow: 2px 2px 10px #383737;
 }
 .total-worth {
+	font-size: 45px;
 	color: #11121d;
 	margin-left: 20px;
 	font-weight: 800;
