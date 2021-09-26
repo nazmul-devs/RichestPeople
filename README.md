@@ -1,6 +1,6 @@
 # The 10 Richest People in the World
 
-Live site link [Richest Person](https://richest-peopel.netlify.app/).
+Live site link [Richest People](https://richest-peopel.netlify.app/).
 
 ## TABLE OF CONTENTS
 
